@@ -1,3 +1,5 @@
-public class Juiz : Pessoa {
+public class Juiz : Profissional {
+
+    public string numOAB;
 
 }

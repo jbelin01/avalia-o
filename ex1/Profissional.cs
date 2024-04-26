@@ -1,4 +1,4 @@
-public class Pessoa{
+public class Profissional{
 
     public string nome;
 

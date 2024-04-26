@@ -1,3 +1,5 @@
-public class Garcom : Pessoa{
+public class Garcom : Profissional{
     
+    public string gorjeta;
+
 }
