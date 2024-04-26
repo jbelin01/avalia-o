@@ -1,2 +1,0 @@
-Garcom  = new Garcom();
-
