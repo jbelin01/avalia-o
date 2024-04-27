@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿ILocal garcom = new Garcom();
+ILocal juiz = new Juiz();
+
+garcom.trabalho();
+garcom.emCasa();
+
+juiz.trabalho();
+juiz.emCasa();
