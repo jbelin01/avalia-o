@@ -1,0 +1,5 @@
+C:\Users\Pacheco\Documents\avaliação\avalia-o\ex3\obj\Debug\net8.0\ex3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pacheco\Documents\avaliação\avalia-o\ex3\obj\Debug\net8.0\ex3.AssemblyInfoInputs.cache
+C:\Users\Pacheco\Documents\avaliação\avalia-o\ex3\obj\Debug\net8.0\ex3.AssemblyInfo.cs
+C:\Users\Pacheco\Documents\avaliação\avalia-o\ex3\obj\Debug\net8.0\ex3.csproj.CoreCompileInputs.cache
+C:\Users\Pacheco\Documents\avaliação\avalia-o\ex3\obj\Debug\net8.0\ex3.sourcelink.json
