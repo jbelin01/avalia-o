@@ -1,12 +1,13 @@
-public class Concursado : Profissional {
+public class Concursado : Profissional
+{
+    public string numOAB;
 
-    public Concursado(){
-
+    public Concursado()
+    {
     }
-    
-    public override bateponto(){
 
-        Console.WriteLine("início de turno ( não bate ponto)");
-
+    public override void batePonto()
+    {
+        Console.WriteLine("Início de turno (não bate ponto).");
     }
 }
