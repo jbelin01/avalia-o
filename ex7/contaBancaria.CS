@@ -15,11 +15,18 @@ public class contaBancaria
 
     }
 
-    public double depositar( double valorConta){
+    public double depositar( double deposito){
 
-        return valorConta += 
+        return valorConta += deposito;
 
     }
+
+    public double sacar( double saque){
+
+        return valorConta -= saque;
+
+    }
+
 
 
 
