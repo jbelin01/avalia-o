@@ -1,13 +1,18 @@
-public class contaPoupanca : contaBancaria
+public class ContaPoupanca : ContaBancaria
 {
 
-        private double taxaJuros {get; set;}
+    private double taxaJuros {get; set;}
 
-        public contaPoupanca(string numeroConta, double saldoConta , double taxaJuros){
-          this.numeroConta = NumeroConta;
-        this.saldoConta = saldoConta;
-        this.taxaManutencao = taxaManutencao;
+    public ContaPoupanca(string numeroConta, double saldoConta , double taxaJuros) : base(numeroConta, saldoConta){
+          
+        this.taxaJuros = taxaJuros;
+
     }
+        public void calcularJuros(){
+
+            SaldoConta *= (1 * taxaJuros);
+
+        }
 
 
 

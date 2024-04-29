@@ -1,20 +1,15 @@
-public class contaEmpresarial : contaBancaria
+public class ContaEmpresarial : ContaBancaria
 {
 
     private double saldoMinimo {get; set;}
 
-    public contaEmpresarial(string numeroConta, double saldoConta){
-        this.numeroConta = NumeroConta;
-        this.saldoConta = saldoConta;
+    public ContaEmpresarial(string numeroConta, double saldoConta) : base( numeroConta, saldoConta) {
+
+            this.saldoMinimo = saldoMinimo;
         
     }
 
     public bool verificarMinimo(){
-         if (saldoConta >= saldoMinimo ){
-            return "possui o saldo nececssário";
-         }
-         else {
-            return "Não possui o saldo necessário";
-         }
+         return SaldoConta >= saldoMinimo;
     }
 }

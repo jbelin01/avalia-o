@@ -1,4 +1,4 @@
-public class contaBancaria
+public class ContaBancaria
 {
 
     public string numeroConta;
@@ -7,11 +7,15 @@ public class contaBancaria
     {
         get { return numeroConta; }
     }
-    public contaBancaria(){
+    public double SaldoConta{
+        get{ return saldoConta;}
+        set[ saldoConta = value;]
+    }
+    public ContaBancaria(){
 
     }
 
-    public contaBancaria(string numeroConta, double saldoConta){
+    public ContaBancaria(string numeroConta, double saldoConta){
 
         this.numeroConta = numeroConta;
         this.saldoConta = saldoConta;
@@ -28,6 +32,7 @@ public class contaBancaria
     public double sacar( double saque){
 
         return saldoConta -= saque;
+
 
     }
 
