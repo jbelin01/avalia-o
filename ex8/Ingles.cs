@@ -1,14 +1,14 @@
 public class Ingles : Curso{
 
-    private int nivel;
+    private string nivel;
 
-    public int Nivel
+    public string Nivel
     {
         get { return nivel; }
         set { nivel = value; }
     }
 
-    public Ingles(string nomeAluno, string codigoAluno, int duracaoHora, int nivel) : base(codigoAluno, codigoAluno, duracaoHora)
+    public Ingles(string nomeAluno, string codigoAluno, int duracaoHora, string nivel) : base(codigoAluno, codigoAluno, duracaoHora)
     {
         this.nivel = nivel; 
     }
@@ -19,9 +19,6 @@ public class Ingles : Curso{
 
     }
 
-    public override string ToString()
-    {
-        return base.ToString();
-    }
+
 
 }

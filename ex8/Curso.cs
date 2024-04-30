@@ -36,7 +36,7 @@ public class Curso{
 
     public override string ToString(){
 
-    return $"Curso: {NomeAluno}, Código do Aluno: {CodigoAluno}, Duração: {DuracaoHora} horas";
+    return $"Aluno destaque: {NomeAluno}, Código do Aluno: {CodigoAluno}, Duração: {DuracaoHora} horas";
     
     }
 }

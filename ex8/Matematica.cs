@@ -18,9 +18,6 @@ public class Matematica : Curso{
         return (nota1 + nota2 + nota3) / 3;
     }
 
-    public override string ToString()
-    {
-        return base.ToString();
-    }
+   
 
 }

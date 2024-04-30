@@ -17,9 +17,6 @@ public class Mecatronica : Curso{
         }
 
     }
-     public override string ToString()
-    {
-        return base.ToString();
-    }
+    
 
 }
