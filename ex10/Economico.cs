@@ -4,12 +4,12 @@ public class Economico : Voo, IReserva{
         {
         }
 
-        public void Reservar()
+        public void reservar()
         {
             Console.WriteLine("Reserva classe econômica efetuada com sucesso!");
         }
 
-        public void Cancelar()
+        public void cancelar()
         {
             Console.WriteLine("Reserva classe econômica cancelada com sucesso!");
         }
@@ -17,6 +17,9 @@ public class Economico : Voo, IReserva{
         public  void status()
         {
             Console.WriteLine("Voo Economico");
+            Console.WriteLine("origem: {origem}");
+            Console.WriteLine("destino: {destino}, ");
+            Console.WriteLine("data: {data}, ");
 
         }
 

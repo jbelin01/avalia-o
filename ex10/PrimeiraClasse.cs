@@ -4,12 +4,12 @@ public class PrimeiraClasse : Voo , IReserva{
         {
         }
 
-        public void Reservar()
+        public void reservar()
         {
             Console.WriteLine("Reserva na primeira classe efetuada com sucesso!");
         }
 
-        public void Cancelar()
+        public void cancelar()
         {
             Console.WriteLine("Reserva na primeira classe com sucesso!");
         }
@@ -17,6 +17,10 @@ public class PrimeiraClasse : Voo , IReserva{
         public  void status()
         {
             Console.WriteLine("Voo primeira classe");
+            Console.WriteLine("origem: {origem}");
+            Console.WriteLine("destino: {destino}, ");
+            Console.WriteLine("data: {data}, ");
+
 
         }
 

@@ -4,12 +4,12 @@ public class GrupoGrande : Voo , IReserva{
         {
         }
 
-        public void Reservar()
+        public void reservar()
         {
             Console.WriteLine("Reserva de um grupo grande efetuada com sucesso!");
         }
 
-        public void Cancelar()
+        public void cancelar()
         {
             Console.WriteLine("Reserva de um grupo grande com sucesso!");
         }
@@ -17,6 +17,9 @@ public class GrupoGrande : Voo , IReserva{
         public  void status()
         {
             Console.WriteLine("Voo com grupo grande");
+            Console.WriteLine("origem: {origem}");
+            Console.WriteLine("destino: {destino}, ");
+            Console.WriteLine("data: {data}, ");
 
         }
 

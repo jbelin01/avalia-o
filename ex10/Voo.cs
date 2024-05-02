@@ -1,10 +1,10 @@
 public class Voo{
 
-    public string origem;
+    public string origem {get; set;}
 
-    public string destino;
+    public string destino {get; set;}
 
-    public string data;
+    public string data {get; set;}
 
     public Voo( string origem, string destino, string data){
 
